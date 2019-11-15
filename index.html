@@ -1,9 +1,17 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400&display=swap"
+      rel="stylesheet"
+    />
     <link href="main.css" rel="stylesheet" />
     <link
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
       rel="stylesheet"
     />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -21,7 +29,7 @@
           <input
             id="myInput"
             type="text"
-            placeholder="Refactor basecode...."
+            placeholder="enter todo item..."
           /><button class="btn addBtn">Add</button>
         </div>
         <div class="col-md-3"></div>
@@ -32,9 +40,40 @@
         <div class="col-md-6">
           <div class="listContainer">
             <ul class="listUL">
-              <li class="listLI">Item One</li>
-              <li>Item Two</li>
+              <li class="listLI">
+                <select class="form-control DropDownCompletionType" id="CT">
+                  <option> </option>
+                  <option>Complete</option>
+                  <option>In-Progress</option>
+                  <option>Waiting For Feedback</option>
+                  <option>Stuck</option>
+                </select>
+                Item One
+                <div class="divx"><i class="fas fa-window-close"></i></div>
+              </li>
+              <li class="listLI">
+                <select class="form-control DropDownCompletionType" id="CT">
+                  <option> </option>
+                  <option>Complete</option>
+                  <option>In-Progress</option>
+                  <option>Waiting For Feedback</option>
+                  <option>Stuck</option>
+                </select>
+                Item Two
+                <div class="divx"><i class="fas fa-window-close"></i></div>
+              </li>
             </ul>
+          </div>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+          <div class="CompletedContainer">
+            <h4>Old/Removed Tasks Section</h4>
           </div>
         </div>
         <div class="col-md-3"></div>

@@ -1,0 +1,58 @@
+body {
+  background: #000000db !important;
+}
+h4 {
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.One {
+  margin-top: 50px;
+}
+.checked {
+  text-decoration: line-through !important;
+}
+.listUL {
+  list-style: none;
+  background: #595959;
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+  padding-left: 0px;
+}
+.DropDownCompletionType {
+  display: inline-block !important;
+  width: 26% !important;
+}
+.divx {
+  display: inline-block !important;
+  right: 17px;
+  padding: 7px;
+  position: absolute;
+}
+.listLI {
+  border: solid black 1px;
+  color: white;
+}
+.Complete {
+  background: #26be0052;
+}
+.InProgress {
+  background: pink;
+}
+.Waiting {
+  background: blue;
+}
+.Stuck {
+  background: red;
+}
+.fa-window-close:active {
+  color: red;
+}
+.fa-window-close {
+}
+.form-control {
+  padding-left: 2px !important;
+}
+.addBtn {
+  font-family: "Roboto Condensed", sans-serif;
+  color: white !important;
+}
